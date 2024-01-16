@@ -5,41 +5,26 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
   </head>
   <body>
-    <div class="slider__wrapper">
-      <button class="slider__nav--btn">
-        <img class="prev__btn--icon" src="./assets/icons/arrow.svg" alt="" />
-      </button>
-      <ul class="slider__list">
-        <li class="slider__item">
-          <img src="./assets/images/1.jpg" alt="image" />
-        </li>
-        <li class="slider__item">
-          <img src="./assets/images/2.jpg" alt="image" />
-        </li>
-        <li class="slider__item">
-          <img src="./assets/images/3.jpg" alt="image" />
-        </li>
-        <li class="slider__item">
-          <img src="./assets/images/4.jpg" alt="image" />
-        </li>
-        <li class="slider__item">
-          <img src="./assets/images/5.jpg" alt="image" />
-        </li>
-        <li class="slider__item">
-          <img src="./assets/images/6.jpg" alt="image" />
-        </li>
-        <li class="slider__item">
-          <img src="./assets/images/7.jpg" alt="image" />
-        </li>
-        <li class="slider__item">
-          <img src="./assets/images/8.jpg" alt="image" />
-        </li>
-      </ul>
-      <button class="slider__nav--btn">
-        <img class="next__btn--icon" src="./assets/icons/arrow.svg" alt="" />
-      </button>
+    <div class="wrapper">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <div class="carousel">
+        <img src="./assets/images/1.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/2.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/3.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/4.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/5.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/6.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/7.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/8.jpg" alt="img" draggable="false" />
+        <img src="./assets/images/9.jpg" alt="img" draggable="false" />
+      </div>
+      <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
     <script type="module" src="./js/main.js"></script>
   </body>
