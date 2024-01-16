@@ -12,5 +12,28 @@ body {
   margin: 0;
   padding: 0;
 
+  font-family: 'Segoe UI', Verdana, sans-serif;
+
   background-color: aquamarine;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  all: unset;
+
+  cursor: pointer;
 }
